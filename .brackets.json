@@ -1,0 +1,10 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/home/victor/ionic/avaliacao/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js",
+        "/home/victor/ionic/avaliacao/platforms/android/cordova/lib/appinfo.js",
+        "/home/victor/ionic/avaliacao/gulpfile.js",
+        "/home/victor/ionic/avaliacao/platforms/android/cordova/lib/spawn.js",
+        "/home/victor/ionic/avaliacao/platforms/android/cordova/lib/exec.js",
+        "/home/victor/ionic/avaliacao/www/js/app.js"
+    ]
+}

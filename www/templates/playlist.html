@@ -1,0 +1,12 @@
+<ion-view view-title="{{titulo}}">
+  <ion-content>
+    <h1 style="text-align: center;">Defina a nota:</h1>
+    <div class="item range range-positive">
+        <input type="range" name="nota" min="0" max="10" value="5" ng-model="questao.nota">
+    </div>
+    <h1 style="text-align: center;" ng-model="questao.nota">{{questao.nota}}</h1>
+    <br/>
+    <a role="button" class="button button-block button-balanced icon-right ion-checkmark-round" ng-show="{{prox}}" href="#/app/playlists/{{idProx}}">Próxima Questão</a>
+    <a role="button" class="button button-block button-assertive icon-right ion-close-round" href="#/app/playlists">Cancelar</a>
+  </ion-content>
+</ion-view>
